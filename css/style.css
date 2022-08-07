@@ -1,0 +1,151 @@
+
+    body{
+     padding: 0 ;
+   
+     
+    }
+     .sidebar{
+         margin: 0;
+         padding: 0;
+         width: 200px;
+         background-color: #f1f1f1;
+         position: absolute;
+         /* height:2115px; */
+         height:2021.36px;
+         overflow: auto;
+     }
+     .brand{
+         color: red !important;
+         margin-top: 100px;
+         margin-bottom: 25px;
+     }
+     .sidebar a{
+         display: block;
+         color: white;
+         padding: 16px;
+         text-decoration: none;
+     }
+     .sidebar a.active{
+         /* background-color: #04aa6d; */
+         color: red;
+     }
+     .sidebar a:hover:not(.active){
+         background-color: rgb(228, 49, 49);
+         color:white;
+     }
+     div.content{
+         margin-left: 200px;
+         /* padding: 1px 16px; */
+         height: 100%;
+     }
+     .ourlife{
+       margin-top: -30px;
+     }
+    .carous h2{
+         color:red;
+     }
+     .text-start p{
+         color:white;
+     }
+     .firstgrig{
+      margin-left: 2px;
+      margin-top: 40px;
+     
+     }
+     .firstgrig i{
+      margin-bottom: 25px;
+     }
+     .firstgrig a{
+      margin-left: -125px;
+     }
+     .card{
+       --bs-card-border-color: rgb(243 13 13 / 43%);
+     }
+     .register{
+       width: 100%;
+       height: 525px;
+       background-image: url(./images/im6.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       opacity: .9;
+         position: relative;
+       margin-top: 40px;
+     }
+     .overlay{
+ 
+       position: absolute;
+       z-index: 1;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       /* background-color:  rgb(14 7 7 / 0%); */
+       background-color: rgb(104 77 77 / 65%);
+     }
+     .register .massege{
+       width: 45%;
+       /* height: 100%; */
+       /* background-color: yellow; */
+       float: left;
+        margin: 100px 15px 100px 15px; 
+        position: absolute;
+     }
+     .register .massege button:first-of-type{
+       margin-left: 150px;
+     }
+     .register .massege .shtext{
+       margin: 5%;
+       height: 225px;
+       /* background-color: aqua; */
+       position: relative;
+     }
+     .register .massege .shtext .text{
+       border-radius:15%;
+       background-color: #f44336;
+       margin-left: 115px ;
+       display: none;
+     }
+
+     .register .form1{
+       width: 30%;
+       /* height: 100%; */
+       float: left;
+       background-color: rgb(47, 0, 255);
+       margin: 50px 100px 50px 100px;
+       position: absolute;
+       
+       right: 0;
+
+     }
+     .border {
+      border: var(--bs-border-width) var(--bs-border-style) #f44336!important;
+     }
+     .rounded-3 {
+      border-radius: var(--bs-border-radius-lg)#f44336!important;
+     }
+  .ourteam {
+   margin-top: 40px;
+   margin-bottom:-30px;
+  }
+
+  .ourteam .card{
+  border:none !important;
+  }
+
+  .ourteam .card-img-top {
+ width: 40% !important;
+ margin: auto;
+ border-color: #f44336;
+ }
+ .ourteam .rounded-circle{
+   border-color: #f44336 !important;
+ }
+ footer{
+   /* height: 100px !important; */
+   color: black;
+   padding: 0 !important;
+ }
+ footer .border-top {
+      border-top: var(--bs-border-width) var(--bs-border-style) #f44336!important;
+      height: 25px !important;
+    }
